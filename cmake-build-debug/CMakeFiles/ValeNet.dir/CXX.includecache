@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/VSocket.h
+
+/home/edmond/workspace/valeNet/include/VSocket.h
+
+/home/edmond/workspace/valeNet/src/VSocket.cpp
+iostream
+-
+../include/VSocket.h
+/home/edmond/workspace/valeNet/include/VSocket.h
+
+/home/edmond/workspace/valeNet/src/Vale.cpp
+iostream
+-
+VSocket.h
+/home/edmond/workspace/valeNet/src/VSocket.h
+
