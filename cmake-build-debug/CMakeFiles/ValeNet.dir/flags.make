@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/edmond/workspace/valeNet/include 
+CXX_INCLUDES = -I/home/edmond/workspace/valeNet/. 
 

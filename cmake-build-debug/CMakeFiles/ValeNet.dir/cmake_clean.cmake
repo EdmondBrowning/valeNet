@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ValeNet.dir/src/VSocket.cpp.o"
-  "CMakeFiles/ValeNet.dir/src/Vale.cpp.o"
+  "CMakeFiles/ValeNet.dir/VSocket.cpp.o"
+  "CMakeFiles/ValeNet.dir/Vale.cpp.o"
   "ValeNet.pdb"
   "ValeNet"
 )

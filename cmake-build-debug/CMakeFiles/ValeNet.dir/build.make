@@ -57,64 +57,64 @@ include CMakeFiles/ValeNet.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ValeNet.dir/flags.make
 
-CMakeFiles/ValeNet.dir/src/VSocket.cpp.o: CMakeFiles/ValeNet.dir/flags.make
-CMakeFiles/ValeNet.dir/src/VSocket.cpp.o: ../src/VSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edmond/workspace/valeNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ValeNet.dir/src/VSocket.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ValeNet.dir/src/VSocket.cpp.o -c /home/edmond/workspace/valeNet/src/VSocket.cpp
+CMakeFiles/ValeNet.dir/VSocket.cpp.o: CMakeFiles/ValeNet.dir/flags.make
+CMakeFiles/ValeNet.dir/VSocket.cpp.o: ../VSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edmond/workspace/valeNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ValeNet.dir/VSocket.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ValeNet.dir/VSocket.cpp.o -c /home/edmond/workspace/valeNet/VSocket.cpp
 
-CMakeFiles/ValeNet.dir/src/VSocket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ValeNet.dir/src/VSocket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edmond/workspace/valeNet/src/VSocket.cpp > CMakeFiles/ValeNet.dir/src/VSocket.cpp.i
+CMakeFiles/ValeNet.dir/VSocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ValeNet.dir/VSocket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edmond/workspace/valeNet/VSocket.cpp > CMakeFiles/ValeNet.dir/VSocket.cpp.i
 
-CMakeFiles/ValeNet.dir/src/VSocket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ValeNet.dir/src/VSocket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edmond/workspace/valeNet/src/VSocket.cpp -o CMakeFiles/ValeNet.dir/src/VSocket.cpp.s
+CMakeFiles/ValeNet.dir/VSocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ValeNet.dir/VSocket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edmond/workspace/valeNet/VSocket.cpp -o CMakeFiles/ValeNet.dir/VSocket.cpp.s
 
-CMakeFiles/ValeNet.dir/src/VSocket.cpp.o.requires:
+CMakeFiles/ValeNet.dir/VSocket.cpp.o.requires:
 
-.PHONY : CMakeFiles/ValeNet.dir/src/VSocket.cpp.o.requires
+.PHONY : CMakeFiles/ValeNet.dir/VSocket.cpp.o.requires
 
-CMakeFiles/ValeNet.dir/src/VSocket.cpp.o.provides: CMakeFiles/ValeNet.dir/src/VSocket.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/src/VSocket.cpp.o.provides.build
-.PHONY : CMakeFiles/ValeNet.dir/src/VSocket.cpp.o.provides
+CMakeFiles/ValeNet.dir/VSocket.cpp.o.provides: CMakeFiles/ValeNet.dir/VSocket.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/VSocket.cpp.o.provides.build
+.PHONY : CMakeFiles/ValeNet.dir/VSocket.cpp.o.provides
 
-CMakeFiles/ValeNet.dir/src/VSocket.cpp.o.provides.build: CMakeFiles/ValeNet.dir/src/VSocket.cpp.o
+CMakeFiles/ValeNet.dir/VSocket.cpp.o.provides.build: CMakeFiles/ValeNet.dir/VSocket.cpp.o
 
 
-CMakeFiles/ValeNet.dir/src/Vale.cpp.o: CMakeFiles/ValeNet.dir/flags.make
-CMakeFiles/ValeNet.dir/src/Vale.cpp.o: ../src/Vale.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edmond/workspace/valeNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ValeNet.dir/src/Vale.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ValeNet.dir/src/Vale.cpp.o -c /home/edmond/workspace/valeNet/src/Vale.cpp
+CMakeFiles/ValeNet.dir/Vale.cpp.o: CMakeFiles/ValeNet.dir/flags.make
+CMakeFiles/ValeNet.dir/Vale.cpp.o: ../Vale.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edmond/workspace/valeNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ValeNet.dir/Vale.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ValeNet.dir/Vale.cpp.o -c /home/edmond/workspace/valeNet/Vale.cpp
 
-CMakeFiles/ValeNet.dir/src/Vale.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ValeNet.dir/src/Vale.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edmond/workspace/valeNet/src/Vale.cpp > CMakeFiles/ValeNet.dir/src/Vale.cpp.i
+CMakeFiles/ValeNet.dir/Vale.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ValeNet.dir/Vale.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edmond/workspace/valeNet/Vale.cpp > CMakeFiles/ValeNet.dir/Vale.cpp.i
 
-CMakeFiles/ValeNet.dir/src/Vale.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ValeNet.dir/src/Vale.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edmond/workspace/valeNet/src/Vale.cpp -o CMakeFiles/ValeNet.dir/src/Vale.cpp.s
+CMakeFiles/ValeNet.dir/Vale.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ValeNet.dir/Vale.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edmond/workspace/valeNet/Vale.cpp -o CMakeFiles/ValeNet.dir/Vale.cpp.s
 
-CMakeFiles/ValeNet.dir/src/Vale.cpp.o.requires:
+CMakeFiles/ValeNet.dir/Vale.cpp.o.requires:
 
-.PHONY : CMakeFiles/ValeNet.dir/src/Vale.cpp.o.requires
+.PHONY : CMakeFiles/ValeNet.dir/Vale.cpp.o.requires
 
-CMakeFiles/ValeNet.dir/src/Vale.cpp.o.provides: CMakeFiles/ValeNet.dir/src/Vale.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/src/Vale.cpp.o.provides.build
-.PHONY : CMakeFiles/ValeNet.dir/src/Vale.cpp.o.provides
+CMakeFiles/ValeNet.dir/Vale.cpp.o.provides: CMakeFiles/ValeNet.dir/Vale.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/Vale.cpp.o.provides.build
+.PHONY : CMakeFiles/ValeNet.dir/Vale.cpp.o.provides
 
-CMakeFiles/ValeNet.dir/src/Vale.cpp.o.provides.build: CMakeFiles/ValeNet.dir/src/Vale.cpp.o
+CMakeFiles/ValeNet.dir/Vale.cpp.o.provides.build: CMakeFiles/ValeNet.dir/Vale.cpp.o
 
 
 # Object files for target ValeNet
 ValeNet_OBJECTS = \
-"CMakeFiles/ValeNet.dir/src/VSocket.cpp.o" \
-"CMakeFiles/ValeNet.dir/src/Vale.cpp.o"
+"CMakeFiles/ValeNet.dir/VSocket.cpp.o" \
+"CMakeFiles/ValeNet.dir/Vale.cpp.o"
 
 # External object files for target ValeNet
 ValeNet_EXTERNAL_OBJECTS =
 
-ValeNet: CMakeFiles/ValeNet.dir/src/VSocket.cpp.o
-ValeNet: CMakeFiles/ValeNet.dir/src/Vale.cpp.o
+ValeNet: CMakeFiles/ValeNet.dir/VSocket.cpp.o
+ValeNet: CMakeFiles/ValeNet.dir/Vale.cpp.o
 ValeNet: CMakeFiles/ValeNet.dir/build.make
 ValeNet: CMakeFiles/ValeNet.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edmond/workspace/valeNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ValeNet"
@@ -125,8 +125,8 @@ CMakeFiles/ValeNet.dir/build: ValeNet
 
 .PHONY : CMakeFiles/ValeNet.dir/build
 
-CMakeFiles/ValeNet.dir/requires: CMakeFiles/ValeNet.dir/src/VSocket.cpp.o.requires
-CMakeFiles/ValeNet.dir/requires: CMakeFiles/ValeNet.dir/src/Vale.cpp.o.requires
+CMakeFiles/ValeNet.dir/requires: CMakeFiles/ValeNet.dir/VSocket.cpp.o.requires
+CMakeFiles/ValeNet.dir/requires: CMakeFiles/ValeNet.dir/Vale.cpp.o.requires
 
 .PHONY : CMakeFiles/ValeNet.dir/requires
 

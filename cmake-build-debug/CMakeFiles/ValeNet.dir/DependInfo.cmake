@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/edmond/workspace/valeNet/src/VSocket.cpp" "/home/edmond/workspace/valeNet/cmake-build-debug/CMakeFiles/ValeNet.dir/src/VSocket.cpp.o"
-  "/home/edmond/workspace/valeNet/src/Vale.cpp" "/home/edmond/workspace/valeNet/cmake-build-debug/CMakeFiles/ValeNet.dir/src/Vale.cpp.o"
+  "/home/edmond/workspace/valeNet/VSocket.cpp" "/home/edmond/workspace/valeNet/cmake-build-debug/CMakeFiles/ValeNet.dir/VSocket.cpp.o"
+  "/home/edmond/workspace/valeNet/Vale.cpp" "/home/edmond/workspace/valeNet/cmake-build-debug/CMakeFiles/ValeNet.dir/Vale.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../include"
+  "../."
   )
 
 # Targets to which this target links.

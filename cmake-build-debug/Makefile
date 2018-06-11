@@ -123,59 +123,59 @@ ValeNet/fast:
 	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/build
 .PHONY : ValeNet/fast
 
-src/VSocket.o: src/VSocket.cpp.o
+VSocket.o: VSocket.cpp.o
 
-.PHONY : src/VSocket.o
-
-# target to build an object file
-src/VSocket.cpp.o:
-	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/src/VSocket.cpp.o
-.PHONY : src/VSocket.cpp.o
-
-src/VSocket.i: src/VSocket.cpp.i
-
-.PHONY : src/VSocket.i
-
-# target to preprocess a source file
-src/VSocket.cpp.i:
-	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/src/VSocket.cpp.i
-.PHONY : src/VSocket.cpp.i
-
-src/VSocket.s: src/VSocket.cpp.s
-
-.PHONY : src/VSocket.s
-
-# target to generate assembly for a file
-src/VSocket.cpp.s:
-	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/src/VSocket.cpp.s
-.PHONY : src/VSocket.cpp.s
-
-src/Vale.o: src/Vale.cpp.o
-
-.PHONY : src/Vale.o
+.PHONY : VSocket.o
 
 # target to build an object file
-src/Vale.cpp.o:
-	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/src/Vale.cpp.o
-.PHONY : src/Vale.cpp.o
+VSocket.cpp.o:
+	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/VSocket.cpp.o
+.PHONY : VSocket.cpp.o
 
-src/Vale.i: src/Vale.cpp.i
+VSocket.i: VSocket.cpp.i
 
-.PHONY : src/Vale.i
+.PHONY : VSocket.i
 
 # target to preprocess a source file
-src/Vale.cpp.i:
-	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/src/Vale.cpp.i
-.PHONY : src/Vale.cpp.i
+VSocket.cpp.i:
+	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/VSocket.cpp.i
+.PHONY : VSocket.cpp.i
 
-src/Vale.s: src/Vale.cpp.s
+VSocket.s: VSocket.cpp.s
 
-.PHONY : src/Vale.s
+.PHONY : VSocket.s
 
 # target to generate assembly for a file
-src/Vale.cpp.s:
-	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/src/Vale.cpp.s
-.PHONY : src/Vale.cpp.s
+VSocket.cpp.s:
+	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/VSocket.cpp.s
+.PHONY : VSocket.cpp.s
+
+Vale.o: Vale.cpp.o
+
+.PHONY : Vale.o
+
+# target to build an object file
+Vale.cpp.o:
+	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/Vale.cpp.o
+.PHONY : Vale.cpp.o
+
+Vale.i: Vale.cpp.i
+
+.PHONY : Vale.i
+
+# target to preprocess a source file
+Vale.cpp.i:
+	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/Vale.cpp.i
+.PHONY : Vale.cpp.i
+
+Vale.s: Vale.cpp.s
+
+.PHONY : Vale.s
+
+# target to generate assembly for a file
+Vale.cpp.s:
+	$(MAKE) -f CMakeFiles/ValeNet.dir/build.make CMakeFiles/ValeNet.dir/Vale.cpp.s
+.PHONY : Vale.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ValeNet"
-	@echo "... src/VSocket.o"
-	@echo "... src/VSocket.i"
-	@echo "... src/VSocket.s"
-	@echo "... src/Vale.o"
-	@echo "... src/Vale.i"
-	@echo "... src/Vale.s"
+	@echo "... VSocket.o"
+	@echo "... VSocket.i"
+	@echo "... VSocket.s"
+	@echo "... Vale.o"
+	@echo "... Vale.i"
+	@echo "... Vale.s"
 .PHONY : help
 
 

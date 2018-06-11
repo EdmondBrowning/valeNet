@@ -2,7 +2,7 @@
 // Created by edmond on 18-6-7.
 //
 #include <iostream>
-#include "../include/VSocket.h"
+#include "VSocket.h"
 
 using namespace std;
 
