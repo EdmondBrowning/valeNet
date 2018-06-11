@@ -9,10 +9,10 @@ namespace wily{
     class VSocket{
     public:
         VSocket();
-        void create();
         ~VSocket();
     private:
         bool isflag;
+        void create();
     };
 }
 #endif //VALENET_VSOCKET_H
