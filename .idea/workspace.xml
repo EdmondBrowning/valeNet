@@ -13,6 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1131a995-0ae5-4ed5-91c2-04709b6fc935" name="Default" comment="">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
@@ -22,6 +23,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
 =======
+=======
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -42,6 +45,9 @@
       <change beforePath="$PROJECT_DIR$/include/VSocket.h" beforeDir="false" afterPath="$PROJECT_DIR$/VSocket.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VSocket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VSocket.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vale.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Vale.cpp" afterDir="false" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -57,10 +63,17 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Vale.cpp" pinned="false" current-in-tab="false">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/src/Vale.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+=======
+        <entry file="file://$PROJECT_DIR$/Vale.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+>>>>>>> Stashed changes
 =======
         <entry file="file://$PROJECT_DIR$/Vale.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,11 +132,16 @@
         <entry file="file://$PROJECT_DIR$/VSocket.cpp">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <state relative-caret-position="270">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#38#57#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+>>>>>>> Stashed changes
 =======
             <state relative-caret-position="165">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -154,7 +172,11 @@
         <option value="$PROJECT_DIR$/src/VSocket.cpp" />
         <option value="$PROJECT_DIR$/src/Vale.cpp" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/.gitignore" />
+=======
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+>>>>>>> Stashed changes
 =======
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
 >>>>>>> Stashed changes
@@ -172,15 +194,21 @@
   </component>
   <component name="ProjectFrameBounds">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <option name="x" value="844" />
     <option name="y" value="291" />
     <option name="width" value="940" />
     <option name="height" value="789" />
 =======
+=======
+>>>>>>> Stashed changes
     <option name="x" value="530" />
     <option name="y" value="187" />
     <option name="width" value="1390" />
     <option name="height" value="1000" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   </component>
   <component name="ProjectView">
@@ -246,9 +274,14 @@
       <workItem from="1528372279259" duration="4577000" />
       <workItem from="1528376953402" duration="3074000" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <workItem from="1528380969477" duration="282000" />
       <workItem from="1528718741358" duration="27000" />
       <workItem from="1528718788355" duration="2136000" />
+=======
+      <workItem from="1528380969477" duration="945000" />
+      <workItem from="1528382437257" duration="61000" />
+>>>>>>> Stashed changes
 =======
       <workItem from="1528380969477" duration="945000" />
       <workItem from="1528382437257" duration="61000" />
@@ -258,6 +291,7 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="10096000" />
   </component>
   <component name="ToolWindowManager">
@@ -266,6 +300,16 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40212765" />
       <window_info anchor="bottom" id="TODO" order="6" />
+=======
+    <option name="totallyTimeSpent" value="8657000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="530" y="187" width="1390" height="1000" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24892086" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.36825398" />
+>>>>>>> Stashed changes
 =======
     <option name="totallyTimeSpent" value="8657000" />
   </component>
@@ -348,6 +392,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vale.cpp">
+<<<<<<< Updated upstream
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
@@ -436,6 +481,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Vale.cpp">
+=======
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -521,6 +568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/helloworld.cbp" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -529,6 +577,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/VSocket.h">
+=======
+    <entry file="file://$PROJECT_DIR$/VSocket.cpp">
+>>>>>>> Stashed changes
 =======
     <entry file="file://$PROJECT_DIR$/VSocket.cpp">
 >>>>>>> Stashed changes
@@ -541,8 +592,13 @@
     <entry file="file://$PROJECT_DIR$/Vale.cpp">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <state relative-caret-position="270">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
+=======
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+>>>>>>> Stashed changes
 =======
         <state relative-caret-position="180">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
@@ -556,12 +612,15 @@
     <entry file="file://$PROJECT_DIR$/VSocket.h">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <state relative-caret-position="180">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>
 =======
+=======
+>>>>>>> Stashed changes
         <state relative-caret-position="165">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
@@ -571,6 +630,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
         </state>
       </provider>
@@ -579,6 +639,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="112" column="2" selection-start-line="112" selection-start-column="2" selection-end-line="112" selection-end-column="2" />
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>

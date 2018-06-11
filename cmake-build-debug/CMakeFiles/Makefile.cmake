@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "/home/edmond/jetbrains/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/home/edmond/jetbrains/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/home/edmond/jetbrains/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
@@ -28,6 +29,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/edmond/jetbrains/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/Platform/UnixPaths.cmake"
   "/home/edmond/jetbrains/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/ProcessorCount.cmake"
 =======
+=======
+>>>>>>> Stashed changes
   "/home/edmond/jetbrains/clion-2018.1.2/bin/cmake/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/home/edmond/jetbrains/clion-2018.1.2/bin/cmake/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/home/edmond/jetbrains/clion-2018.1.2/bin/cmake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
