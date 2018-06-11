@@ -178,5 +178,3 @@ logs/
 
 #Cmake
 cmake-build-debug/*
-
-.cpp
