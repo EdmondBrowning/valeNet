@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/ValeNet.dir/VSocket.cpp.o CMakeFiles/ValeNet.dir/Vale.cpp.o  -o ValeNet 
