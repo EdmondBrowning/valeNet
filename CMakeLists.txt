@@ -6,6 +6,6 @@ INCLUDE_DIRECTORIES(.)
 #source directory
 AUX_SOURCE_DIRECTORY(. DIR_SRCS)
 #set environment variable
-SET(TEST_MATH ${DIR_SRCS} VProcess.h)
+SET(TEST_MATH ${DIR_SRCS} VProcess.h VProcess.cpp)
 #add executable file
 ADD_EXECUTABLE(ValeNet ${TEST_MATH})

@@ -6,7 +6,8 @@
 #define VALENET_VPROCESS_H
 namespace wily{
     class VProcess{
-        
+
+        VProcess();
     };
 }
 #endif //VALENET_VPROCESS_H
