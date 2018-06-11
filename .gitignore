@@ -175,3 +175,8 @@ buildNumber.properties
 .mvn/timing.properties
 
 logs/
+
+#Cmake
+cmake-build-debug/*
+
+.cpp
