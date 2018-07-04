@@ -3,11 +3,28 @@
 //
 
 #include <iostream>
+#include <zconf.h>
 #include "VSocket.h"
+#include "VProcess.h"
 
 using namespace std;
 
+class MyProcess:public wily::VProcess{
+private:
+    void run() override {
+        cout<<"the child process is working"<<endl;
+        sleep(1000);
+        cout<<"the child process is end"<<endl;
+    }
+
+public:
+    MyProcess();
+};
+
+MyProcess::MyProcess() = default;
+
+
 int main(){
-    auto * vSocket = new wily::VSocket();
-    delete(vSocket);
+    auto * vProcess = new MyProcess();
+    vProcess->start();
 }
