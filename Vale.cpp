@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include <zconf.h>
+#include <unistd.h>
 #include "VSocket.h"
 #include "VProcess.h"
 
