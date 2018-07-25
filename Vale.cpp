@@ -27,4 +27,6 @@ MyProcess::MyProcess() = default;
 int main(){
     auto * vProcess = new MyProcess();
     vProcess->start();
+    sleep(1);
+    vProcess->stop();
 }
