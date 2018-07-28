@@ -1,9 +1,9 @@
 //
 // Created by edmond on 18-6-11.
 //
-#include <zconf.h>
 #include <iostream>
 #include <sys/wait.h>
+#include <unistd.h>
 #include "VProcess.h"
 
 wily::VProcess::VProcess() = default;

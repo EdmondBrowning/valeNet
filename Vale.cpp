@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include <zconf.h>
+#include <unistd.h>
 #include "VSocket.h"
 #include "VProcess.h"
 
@@ -25,8 +25,8 @@ MyProcess::MyProcess() = default;
 
 
 int main(){
-    auto * vProcess = new MyProcess();
+    MyProcess * vProcess = new MyProcess();
     vProcess->start();
-    sleep(1);
+    sleep(10);
     vProcess->stop();
 }
