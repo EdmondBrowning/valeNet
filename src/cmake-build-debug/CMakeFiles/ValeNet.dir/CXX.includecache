@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/edmond/workspace/valeNet/VProcess.cpp
+zconf.h
+-
+iostream
+-
+thread
+-
+sys/wait.h
+-
+VProcess.h
+/home/edmond/workspace/valeNet/VProcess.h
+
+/home/edmond/workspace/valeNet/VProcess.h
+
+/home/edmond/workspace/valeNet/VSocket.cpp
+iostream
+-
+VSocket.h
+/home/edmond/workspace/valeNet/VSocket.h
+
+/home/edmond/workspace/valeNet/VSocket.h
+
+/home/edmond/workspace/valeNet/Vale.cpp
+iostream
+-
+zconf.h
+-
+VSocket.h
+/home/edmond/workspace/valeNet/VSocket.h
+VProcess.h
+/home/edmond/workspace/valeNet/VProcess.h
+
