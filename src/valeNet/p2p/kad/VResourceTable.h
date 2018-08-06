@@ -11,7 +11,10 @@
 namespace wily{
     class VResourceTable {
     private:
-        std::map<std::string, VResource> *resourceMap;
+        std::map<std::string, VResource*> *resourceMap;
+    public:
+        VResource* findResource(std::string rid);
+        void findResource(VResource* vResource);
     };
 }
 

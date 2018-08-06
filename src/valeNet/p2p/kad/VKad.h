@@ -14,7 +14,7 @@ namespace wily{
     class VKBucket;
     class VKad{
     private:
-        std::array<VKBucket ,160> *bucketList;
+        std::array<VKBucket ,160>* bucketList;
     public:
         VNode* findNearLestNode(VResource);
         void addNode(VNode*);
