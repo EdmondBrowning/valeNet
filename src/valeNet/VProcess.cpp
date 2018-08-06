@@ -9,10 +9,17 @@
 wily::VProcess::VProcess() = default;
 
 void wily::VProcess::start() {
-    if ((this->processId = (fork()) == 0)){
+    int pid_t;
+    pid_t = fork();
+    if ( pid_t == 0){
         this->run();
     }else {
+<<<<<<< HEAD:VProcess.cpp
         
+=======
+        std::cout<<pid_t<<std::endl;
+        this->processId = pid_t;
+>>>>>>> 0.1.1:src/valeNet/VProcess.cpp
     }
 }
 
@@ -21,5 +28,6 @@ int wily::VProcess::getProcessId() {
 }
 
 void wily::VProcess::stop() {
+    std::cout<<this->getProcessId()<<std::endl;
     kill(this->processId, SIGKILL);
 }

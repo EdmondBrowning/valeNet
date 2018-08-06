@@ -7,9 +7,9 @@
 namespace wily{
     class VProcess{
     private:
-        int processId = 0;
-        bool isRun = false;
-        virtual void run()= 0;
+        int processId;
+        bool isRun;
+        virtual void run();
     public:
         VProcess();
         void start();
