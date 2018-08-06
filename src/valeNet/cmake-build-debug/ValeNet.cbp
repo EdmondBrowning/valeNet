@@ -101,6 +101,36 @@
 		<Unit filename="/home/edmond/workspace/valeNet/src/valeNet/Vale.cpp">
 			<Option target="ValeNet"/>
 		</Unit>
+		<Unit filename="/home/edmond/workspace/valeNet/src/valeNet/p2p/kad/VKBucket.cpp">
+			<Option target="ValeNet"/>
+		</Unit>
+		<Unit filename="/home/edmond/workspace/valeNet/src/valeNet/p2p/kad/VKBucket.h">
+			<Option target="ValeNet"/>
+		</Unit>
+		<Unit filename="/home/edmond/workspace/valeNet/src/valeNet/p2p/kad/VKad.cpp">
+			<Option target="ValeNet"/>
+		</Unit>
+		<Unit filename="/home/edmond/workspace/valeNet/src/valeNet/p2p/kad/VKad.h">
+			<Option target="ValeNet"/>
+		</Unit>
+		<Unit filename="/home/edmond/workspace/valeNet/src/valeNet/p2p/kad/VNode.cpp">
+			<Option target="ValeNet"/>
+		</Unit>
+		<Unit filename="/home/edmond/workspace/valeNet/src/valeNet/p2p/kad/VNode.h">
+			<Option target="ValeNet"/>
+		</Unit>
+		<Unit filename="/home/edmond/workspace/valeNet/src/valeNet/p2p/kad/VResource.cpp">
+			<Option target="ValeNet"/>
+		</Unit>
+		<Unit filename="/home/edmond/workspace/valeNet/src/valeNet/p2p/kad/VResource.h">
+			<Option target="ValeNet"/>
+		</Unit>
+		<Unit filename="/home/edmond/workspace/valeNet/src/valeNet/p2p/kad/VResourceTable.cpp">
+			<Option target="ValeNet"/>
+		</Unit>
+		<Unit filename="/home/edmond/workspace/valeNet/src/valeNet/p2p/kad/VResourceTable.h">
+			<Option target="ValeNet"/>
+		</Unit>
 		<Unit filename="/home/edmond/workspace/valeNet/src/valeNet/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
