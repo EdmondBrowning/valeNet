@@ -16,8 +16,10 @@ namespace wily{
         void setNid(std::string nid);
         void setAddress(std::string address);
     public:
+        VNode();
         std::string getNid();
         std::string getAddress();
+        ~VNode();
     };
 }
 

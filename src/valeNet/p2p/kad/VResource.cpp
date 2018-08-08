@@ -37,4 +37,12 @@ namespace wily{
     std::string VResource::getUrl() {
         return std::__cxx11::string();
     }
+
+    VResource::VResource() {
+
+    }
+
+    VResource::~VResource() {
+
+    }
 }

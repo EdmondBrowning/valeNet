@@ -19,10 +19,12 @@ namespace wily{
         void setPort(int port);
         void setUrl(std::string url);
     public:
+        VResource();
         std::string getRid();
         std::string getAddress();
         int getPort();
         std::string getUrl();
+        ~VResource();
     };
 }
 

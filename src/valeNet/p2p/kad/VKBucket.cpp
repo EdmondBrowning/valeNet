@@ -13,4 +13,12 @@ namespace wily{
     void VKBucket::addVNode(VNode *) {
 
     }
+
+    VKBucket::VKBucket() {
+        this->kbucket = new std::list<VNode>();
+    }
+
+    VKBucket::~VKBucket() {
+        delete(this->kbucket);
+    }
 }

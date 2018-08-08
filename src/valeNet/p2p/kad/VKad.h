@@ -16,8 +16,10 @@ namespace wily{
     private:
         std::array<VKBucket ,160>* bucketList;
     public:
+        VKad();
         VNode* findNearLestNode(VResource);
         void addNode(VNode*);
+        ~VKad();
 };
 }
 #endif //VALENET_VKAD_H

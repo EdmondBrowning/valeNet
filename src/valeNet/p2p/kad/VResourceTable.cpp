@@ -12,4 +12,12 @@ namespace wily{
     void VResourceTable::findResource(VResource *vResource) {
 
     }
+
+    VResourceTable::VResourceTable() {
+        this->resourceMap = new std::map<std::string,VResource*>()
+    }
+
+    VResourceTable::~VResourceTable() {
+        delete(this->resourceMap);
+    }
 }

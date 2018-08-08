@@ -21,4 +21,12 @@ namespace wily{
     std::string VNode::getAddress() {
         return std::__cxx11::string();
     }
+
+    VNode::VNode() {
+
+    }
+
+    VNode::~VNode() {
+
+    }
 }
