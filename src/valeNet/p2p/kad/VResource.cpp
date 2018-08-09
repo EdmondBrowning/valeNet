@@ -6,6 +6,10 @@
 
 namespace wily{
 
+    VResource::VResource() {
+
+    }
+
     void VResource::setAddress(std::string address) {
 
     }
@@ -36,10 +40,6 @@ namespace wily{
 
     std::string VResource::getUrl() {
         return std::__cxx11::string();
-    }
-
-    VResource::VResource() {
-
     }
 
     VResource::~VResource() {

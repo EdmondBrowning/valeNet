@@ -10,7 +10,7 @@ namespace wily {
         this->bucketList = new std::array<VKBucket ,160>();
     }
 
-    VNode* VKad::findNearLestNode(VResource vResource) {
+    VNode* VKad::findNearLestNode(VResource* vResource) {
         return new VNode();
     }
 

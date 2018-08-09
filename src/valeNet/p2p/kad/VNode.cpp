@@ -6,6 +6,10 @@
 
 namespace wily{
 
+    VNode::VNode() {
+
+    }
+
     void VNode::setNid(std::string nid) {
 
     }
@@ -20,10 +24,6 @@ namespace wily{
 
     std::string VNode::getAddress() {
         return std::__cxx11::string();
-    }
-
-    VNode::VNode() {
-
     }
 
     VNode::~VNode() {
