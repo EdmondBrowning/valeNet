@@ -8,18 +8,26 @@
 #include <array>
 #include "VNode.h"
 #include "VResource.h"
+#include "VKBucket.h"
+#include "VResourceTable.h"
 
 namespace wily{
-
-    class VKBucket;
     class VKad{
     private:
-        std::array<VKBucket ,160>* bucketList;
-    public:
+        std::array<VKBucket* ,160>* bucketList;
+        VNode* selfNode;
+        VResourceTable* vResourceTable;
         VKad();
-        VNode* findNearLestNode(VResource*);
-        void addNode(VNode*);
+        VKad(const VKad &);
+        VKad & operator = (const VKad &);
         ~VKad();
+    public:
+        static VKad* getInstance();
+        void* findNearLestNode(VResource*);
+        void* findNearLestNode(std::bitset<160>);
+        void addNode(VNode*);
+        VResource* findResource(std::bitset<160> rid);
+        VResource* findResource(VResource* vResource);
     };
 }
 #endif //VALENET_VKAD_H

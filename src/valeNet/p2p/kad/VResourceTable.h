@@ -14,8 +14,8 @@ namespace wily{
         std::map<std::string, VResource*>* resourceMap;
     public:
         VResourceTable();
-        VResource* findResource(std::string rid);
-        void findResource(VResource* vResource);
+        VResource* findResource(std::bitset<160> rid);
+        void addResource(VResource* vResource);
         ~VResourceTable();
     };
 }

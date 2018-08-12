@@ -12,9 +12,10 @@ namespace wily{
     class VKBucket {
     private:
         std::list<VNode>* kbucket;
+        bool isAlive(VNode*);
     public:
         VKBucket();
-        void* findVNode(std::string);
+        void* findVNode(std::bitset<160>);
         void addVNode(VNode*);
         ~VKBucket();
     };

@@ -7,17 +7,20 @@
 
 
 #include <string>
+#include <bitset>
 
 namespace wily{
     class VNode{
     private:
-        std::string nid;
+        std::bitset<160> nid;
         std::string address;
-        void setNid(std::string nid);
+        void setNid(std::bitset<160> nid);
         void setAddress(std::string address);
     public:
         VNode();
-        std::string getNid();
+        VNode(std::string);
+        VNode(std::string,std::bitset<160>);
+        std::bitset<160> getNid();
         std::string getAddress();
         ~VNode();
     };

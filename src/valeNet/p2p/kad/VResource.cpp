@@ -1,3 +1,7 @@
+#include <utility>
+
+#include <utility>
+
 //
 // Created by edmond on 18-8-6.
 //
@@ -11,38 +15,46 @@ namespace wily{
     }
 
     void VResource::setAddress(std::string address) {
-
-    }
-
-    void VResource::setRid(std::string id) {
-
+        this->address = std::move(address);
     }
 
     void VResource::setPort(int port) {
-
+        this->port = port;
     }
 
     void VResource::setUrl(std::string url) {
-
+        this->url = std::move(url);
     }
 
-    std::string VResource::getRid() {
-        return std::__cxx11::string();
+    std::bitset<160> VResource::getRid() {
+        return this->rid;
     }
 
     std::string VResource::getAddress() {
-        return std::__cxx11::string();
+        return this->address;
     }
 
     int VResource::getPort() {
-        return 0;
+        return this->port;
     }
 
     std::string VResource::getUrl() {
-        return std::__cxx11::string();
+        return this->url;
     }
 
     VResource::~VResource() {
 
+    }
+
+    void VResource::setRid(std::bitset<160> rid) {
+        this->rid = rid;
+    }
+
+    std::string VResource::getProtocol() {
+        return protocol;
+    }
+
+    void VResource::setProtocol(std::string protocol) {
+        this->protocol = protocol;
     }
 }

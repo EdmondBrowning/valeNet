@@ -6,28 +6,29 @@
 #include <unistd.h>
 #include "VProcess.h"
 
-wily::VProcess::VProcess() = default;
+namespace wily{
 
-void wily::VProcess::start() {
-    int pid_t;
-    pid_t = fork();
-    if ( pid_t == 0){
-        this->run();
-    }else {
-<<<<<<< HEAD:VProcess.cpp
-        
-=======
-        std::cout<<pid_t<<std::endl;
-        this->processId = pid_t;
->>>>>>> 0.1.1:src/valeNet/VProcess.cpp
+    VProcess::VProcess() = default;
+
+    void VProcess::start() {
+        int pid_t;
+        pid_t = fork();
+        if ( pid_t == 0){
+            this->run();
+        }else {
+            std::cout<<pid_t<<std::endl;
+            this->processId = pid_t;
+        }
     }
-}
 
-int wily::VProcess::getProcessId() {
-    return this->processId;
-}
+    int VProcess::getProcessId() {
+        return this->processId;
+    }
 
-void wily::VProcess::stop() {
-    std::cout<<this->getProcessId()<<std::endl;
-    kill(this->processId, SIGKILL);
+    void VProcess::stop() {
+        std::cout<<this->getProcessId()<<std::endl;
+        kill(this->processId, SIGKILL);
+    }
+
+    void VProcess::run(){}
 }
