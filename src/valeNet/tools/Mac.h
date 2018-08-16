@@ -14,9 +14,9 @@
 #include <string.h>
 #include <string>
 #include <iostream>
-#include <zconf.h>
 #include <linux/if_ether.h>
 #include <iomanip>
+#include <unistd.h>
 
 namespace wily{
     class Mac {

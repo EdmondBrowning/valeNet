@@ -10,12 +10,12 @@ namespace wily{
         this->resourceMap = new std::map<std::string,VResource*>();
     }
 
-    void VResourceTable::addResource(VResource *vResource) {
+    void VResourceTable::addResource(VResource* vResource) {
         this->resourceMap->insert(std::pair<std::string, VResource*>(vResource->getRid().to_string(), vResource));
     }
 
     VResource* VResourceTable::findResource(std::bitset<160> rid) {
-        std::map<std::string,VResource*>::iterator iter = this->resourceMap->find(rid.to_string());
+        auto iter = this->resourceMap->find(rid.to_string());
         if(iter != this->resourceMap->end())
             return iter->second;
         else

@@ -14,7 +14,7 @@
 namespace wily{
     class VKad{
     private:
-        std::array<VKBucket* ,160>* bucketList;
+        std::array<VKBucket* ,160>* bucketList = nullptr;
         VNode* selfNode;
         VResourceTable* vResourceTable;
         VKad();

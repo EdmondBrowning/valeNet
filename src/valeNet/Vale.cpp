@@ -40,7 +40,7 @@ int main(){
     auto* vResource = new wily::VResource();
     cout<<vKad->findNearLestNode(vResource)<<endl;
 //
-//    cout<<(sha1.getSHA1(wily::Mac().get_mac()))<<endl;
+    cout<<(sha1.getSHA1(wily::Mac().get_mac()))<<endl;
 }
 
 

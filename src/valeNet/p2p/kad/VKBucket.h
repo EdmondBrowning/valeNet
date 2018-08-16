@@ -11,7 +11,7 @@
 namespace wily{
     class VKBucket {
     private:
-        std::list<VNode>* kbucket;
+        std::list<VNode>* kbucket = nullptr;
         bool isAlive(VNode*);
     public:
         VKBucket();

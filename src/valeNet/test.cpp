@@ -15,7 +15,7 @@
 #include <stdio.h>
 
 #include <string.h>
-#include <zconf.h>
+#include <unistd.h>
 
 
 int main1() {
