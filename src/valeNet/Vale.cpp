@@ -8,23 +8,8 @@
 #include <p2p/kad/VSHA1.h>
 #include <bitset>
 #include <tools/Mac.h>
-#include "VSocket.h"
-#include "VProcess.h"
 
 using namespace std;
-
-class MyProcess:public wily::VProcess{
-private:
-    void run() override {
-        wily::VKad* vKad = wily::VKad::getInstance();
-        cout<<vKad<<endl;
-    }
-
-public:
-    MyProcess();
-};
-
-MyProcess::MyProcess() = default;
 
 int main(){
 //    auto * vProcess = new MyProcess();

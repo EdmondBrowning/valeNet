@@ -15,6 +15,7 @@ namespace wily{
         void start();
         void stop();
         int getProcessId();
+        ~VProcess();
     };
 }
 #endif //VALENET_VPROCESS_H
