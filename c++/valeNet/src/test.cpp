@@ -20,7 +20,7 @@
 
 int main1() {
 
-    char *device="enp6s0"; //eth0是网卡设备名
+    char* device= const_cast<char *>("enp6s0"); //eth0是网卡设备名
     unsigned char macaddr[ETH_ALEN]; //ETH_ALEN（6）是MAC地址长度
     struct ifreq req;
     int err,i;
