@@ -4,10 +4,10 @@
 
 #include <iostream>
 #include <unistd.h>
-#include <p2p/kad/VKad.h>
-#include <p2p/kad/VSHA1.h>
+#include "p2p/kad/VKad.h"
+#include "p2p/kad/VSHA1.h"
 #include <bitset>
-#include <tools/Mac.h>
+#include "tools/Mac.h"
 
 using namespace std;
 
