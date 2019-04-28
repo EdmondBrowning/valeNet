@@ -5,10 +5,11 @@
 #ifndef VALENET_RESOURCEINFO_H
 #define VALENET_RESOURCEINFO_H
 
+namespace wily {
+    class ResourceInfo {
 
-class ResourceInfo {
-
-};
+    };
+}
 
 
 #endif //VALENET_RESOURCEINFO_H

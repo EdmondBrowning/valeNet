@@ -3,11 +3,8 @@
 //
 
 #include <iostream>
-#include "VSocket.h"
 
 using namespace std;
 
 int main(){
-    auto * vSocket = new wily::VSocket();
-    delete(vSocket);
 }

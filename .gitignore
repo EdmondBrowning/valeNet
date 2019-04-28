@@ -177,4 +177,5 @@ buildNumber.properties
 logs/
 
 #Cmake
-cmake-build-debug/*
+**/cmake-build-debug/*
+
