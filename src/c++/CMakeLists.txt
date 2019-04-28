@@ -15,7 +15,7 @@ add_library(wilysocket SHARED src/include/libwilysocket.h src/lib/libwilysocket.
 add_library(wilythread SHARED src/include/libwilythread.h src/lib/libwilythread.cpp)
 add_library(wilypool SHARED src/include/libwilypool.h src/lib/libwilypool.cpp)
 
-add_executable(ValeNet src/Vale.cpp src/op/op.cpp src/resource/Resource.cpp src/resource/Resource.h src/resource/ResourceInfo.cpp src/resource/ResourceInfo.h)
+add_executable(ValeNet src/Vale.cpp src/op/op.cpp src/resource/Resource.cpp src/resource/Resource.h src/resource/ResourceInfo.cpp src/resource/ResourceInfo.h src/routing/Node.cpp src/routing/Node.h src/routing/Bucket.cpp src/routing/Bucket.h src/routing/KadRouting.cpp src/routing/KadRouting.h)
 
 target_link_libraries(ValeNet
         wilyautoptr wilyloger wilyconnection wilydatagramsocket wilyprocess wilysocket wilythread wilypool)
